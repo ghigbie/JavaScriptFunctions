@@ -9,3 +9,15 @@ sayHi();
 
 sayHi //this will only refer to the function 
 
+function square(num){
+	console.log(num * num);
+}
+
+square(5);
+sqaure(10);
+
+function sayHello("name"){
+	console.log(`Hello, ${name}`);
+}
+
+sayHello("Dave");
