@@ -28,3 +28,36 @@ function area (length, width){
 
 area(43, 40);
 
+function isEven(num) {
+	if(num %2 === 0){
+		return true;
+	}
+	else{
+		return false;
+	}
+}
+
+isEven(8);
+isEven(38);
+
+function factorial(num){
+	var result = num
+	if(num === 0){
+		console.log(1)
+		console.log("/////////////////");
+		return 1;
+	}
+	var result = num;
+	for(var counter = num-1; counter > 0; counter--){
+		result*=counter;
+	}
+	console.log(result);
+	console.log("/////////////////");
+	return result;
+}
+
+factorial(5);
+factorial(20);
+factorial(0);
+
+
