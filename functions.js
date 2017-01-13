@@ -72,9 +72,9 @@ factorial(5);
 factorial(20);
 factorial(0);
 
-function factorialShorter(num){
+function factorialShort(num){
 	var result =1;
-	for(var a = 2; i <= num; a++){
+	for(var a = 2; a <= num; a++){
 		result *= a;
 	}
 	return result;
