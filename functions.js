@@ -39,6 +39,18 @@ function isEven(num) {
 
 isEven(8);
 isEven(38);
+isEven(21);
+isEven(99);
+
+function isEvenShort(num){
+	return num % 2 === 0; 
+}
+
+isEvenShort(8);
+isEvenShort(38);
+isEvenShort(21);
+isEvenShort(99);
+
 
 function factorial(num){
 	var result = num
@@ -64,7 +76,7 @@ function kebabToSanke(word){
 	var newWord;
 	for(var a = 0; a < word.length; a++){
 		if(word[a] = "-"){
-			newWord[a] = "_"
+			newWord[a] = "_";
 			newWord+=newWord[a];
 		}
 		else{
@@ -75,5 +87,8 @@ function kebabToSanke(word){
 	}
 	console.log(newWord);
 }
+
+kebabToSanke("dash-dog");
+kebabToSanke("doggie");
 
 
