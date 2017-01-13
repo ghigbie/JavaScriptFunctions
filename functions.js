@@ -21,3 +21,10 @@ function sayHello("name"){
 }
 
 sayHello("Dave");
+
+function area (length, width){
+	console.log(length*width);
+}
+
+area(43, 40);
+
