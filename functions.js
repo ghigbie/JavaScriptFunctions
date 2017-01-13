@@ -72,7 +72,7 @@ factorial(5);
 factorial(20);
 factorial(0);
 
-fucntion factorialShorter(num){
+function factorialShorter(num){
 	var result =1;
 	for(var a = 2; i <= num; a++){
 		result *= a;
@@ -86,19 +86,22 @@ factorialShort(0);
 
 
 function kebabToSanke(word){
-	var newWord;
-	for(var a = 0; a < word.length; a++){
-		if(word[a] = "-"){
-			newWord[a] = "_";
-			newWord+=newWord[a];
-		}
-		else{
-			newWord[a] = word[a];
-			newWord+=newWord[a];
-		}
+	var newWord = word.replace(/-/g , "_");
+	return newWord;
 
-	}
-	console.log(newWord);
+	// var newWord;
+	// for(var a = 0; a < word.length; a++){
+	// 	if(word[a] = "-"){
+	// 		newWord[a] = "_";
+	// 		newWord+=newWord[a];
+	// 	}
+	// 	else{
+	// 		newWord[a] = word[a];
+	// 		newWord+=newWord[a];
+	// 	}
+
+	// }
+	// console.log(newWord);
 }
 
 kebabToSanke("dash-dog");
