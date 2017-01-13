@@ -107,4 +107,17 @@ function kebabToSanke(word){
 kebabToSanke("dash-dog");
 kebabToSanke("doggie");
 
+function sayYo(){
+	console.log("Yo!!!");
+}
+
+setInterval(sayYo, 1500); //no parenthesis needed for sayYo because set interval calls sayYo() for us
+
+setInterval(function(){
+	console.log("I am a fucntion!");
+	console.log("This is awesome.");
+}, 2000);
+
+
+
 
