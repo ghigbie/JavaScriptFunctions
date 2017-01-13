@@ -14,9 +14,9 @@ function square(num){
 }
 
 square(5);
-sqaure(10);
+square(10);
 
-function sayHello("name"){
+function sayHello(name){
 	console.log(`Hello, ${name}`);
 }
 
