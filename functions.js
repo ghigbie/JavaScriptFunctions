@@ -60,4 +60,20 @@ factorial(5);
 factorial(20);
 factorial(0);
 
+function kebabToSanke(word){
+	var newWord;
+	for(var a = 0; a < word.length; a++){
+		if(word[a] = "-"){
+			newWord[a] = "_"
+			newWord+=newWord[a];
+		}
+		else{
+			newWord[a] = word[a];
+			newWord+=newWord[a];
+		}
+
+	}
+	console.log(newWord);
+}
+
 
