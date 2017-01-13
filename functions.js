@@ -43,7 +43,7 @@ isEven(21);
 isEven(99);
 
 function isEvenShort(num){
-	return num % 2 === 0; 
+	return num % 2 === 0; //this will return true if the result is true
 }
 
 isEvenShort(8);
@@ -71,6 +71,19 @@ function factorial(num){
 factorial(5);
 factorial(20);
 factorial(0);
+
+fucntion factorialShorter(num){
+	var result =1;
+	for(var a = 2; i <= num; a++){
+		result *= a;
+	}
+	return result;
+}
+
+factorialShort(5);
+factorialShort(20);
+factorialShort(0);
+
 
 function kebabToSanke(word){
 	var newWord;
